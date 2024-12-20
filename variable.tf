@@ -29,8 +29,4 @@ variable "instance_type" {
   default     = "t3.micro"
 }
 
-variable "key_name" {
-  description = "Name of the existing key pair to use for the EC2 instance"
-  type        = string
-  default     = "mykeys"
-}
+
